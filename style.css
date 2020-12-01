@@ -50,7 +50,8 @@ body {
   font-size: 24px;
   position: absolute;
   bottom: 20px;
-  left: 20px;
+  /* left: 20px; */
+  right: 30%;
   margin: 0;
   /* will show when active */
   opacity: 0;
@@ -62,7 +63,7 @@ body {
 }
 
 .panel.active h3 {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
@@ -77,5 +78,11 @@ body {
   .panel:nth-of-type(4),
   .panel:nth-of-type(5) {
     display: none;
+  }
+}
+
+@media (min-width: 980px) {
+  .panel.active h3 {
+    position: absolute;
   }
 }

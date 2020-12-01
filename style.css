@@ -64,6 +64,7 @@ body {
 .panel.active h3 {
   margin-left: 20px;
   opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 /* if screen is under 480px */

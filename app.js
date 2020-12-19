@@ -1,5 +1,4 @@
 // Grab the panels
-
 const panels = document.querySelectorAll('.panel');
 
 panels.forEach((panel) => {
